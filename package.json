@@ -1,0 +1,16 @@
+{
+  "name": "seed",
+  "version": "0.0.1",
+  "description": "JS seed project",
+  "repository": "",
+  "author": "Ashish Juyal <ajuyal@xebia.com>",
+  "scripts": {
+    "test": "NODE_ENV=test node_modules/.bin/mocha --opts mocha.opts",
+    "test:watch": "NODE_ENV=test node_modules/.bin/mocha --opts mocha.opts --watch"
+  },
+  "src": "src",
+  "devDependencies": {
+    "expect": "^21.2.1",
+    "mocha": "^4.0.1"
+  }
+}
